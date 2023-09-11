@@ -1,0 +1,45 @@
+/* MAIN */
+
+#container {
+    width: 100vw;
+    height: 60vh;
+    display: flex;
+}
+
+#section1 {
+    width: 50%;
+    height: 60vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+#equation_container {
+    width: 50vw;
+    height: 30vh;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#accolade_container {
+    width: 10%;
+    font-size: 16rem;
+    position: relative;
+}
+
+#accolade {
+    top: -4rem;
+    position: absolute;
+}
+
+#equation {
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.eq {
+    font-size: 2.5rem;
+}

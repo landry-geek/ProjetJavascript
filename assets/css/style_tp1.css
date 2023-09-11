@@ -1,0 +1,36 @@
+/* MAIN */
+
+main {
+    height: 80vh;
+}
+
+div#container {
+    width: 100vw;
+    height: 60vh;
+    display: flex;
+}
+
+#section1 {
+    width: 50vw;
+    height: 60vh;
+    color: #000;
+    display: flex;
+    font-size: 2rem;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+#equation {
+    position: relative;
+    text-align: center;
+}
+
+#answer_container {
+    display: flex;
+}
+
+#section2 {
+    width: 50vw;
+    height: 60vh;
+}

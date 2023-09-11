@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <script src="./assets/javascript/app_tp2.js"></script>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" href="./assets/css/style_tp2.css">
+    <link rel="stylesheet" href="./assets/css/style_main.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TP II</title>
+</head>
+
+<body>
+    <!-- HEADER -->
+    <header><span id="numero_du_tp">②</span><a id="aide">?</a></header>
+
+    <!-- MAIN -->
+    <main>
+        <h1>Résolution d'un Système Linéaire à 3 inconnus</h1>
+
+        <section id="container">
+            <section id="section1">
+                <div id="equation_container">
+                    <div id="accolade_container">
+                        <span id="accolade">{</span>
+                    </div>
+                    <div id="equation">
+                        <div class="eq">
+                            <input type="text" class="variable" placeholder="a" name="a1" maxlength="3" required onchange="removeAnswer()">x + <input type="text" class="variable" placeholder="b" name="b1" maxlength="3" required onchange="removeAnswer()">                            y + <input type="text" class="variable" placeholder="c" name="c1" maxlength="3" required onchange="removeAnswer()"> z = <input type="text" class="variable" placeholder="d" name="d1" maxlength="3" required onchange="removeAnswer()">
+                        </div>
+                        <div class="eq">
+                            <input type="text" class="variable" placeholder="a'" name="a2" maxlength="3" required onchange="removeAnswer()">x + <input type="text" class="variable" placeholder="b'" name="b2" maxlength="3" required onchange="removeAnswer()">                            y + <input type="text" class="variable" placeholder="c'" name="c2" maxlength="3" required onchange="removeAnswer()"> z = <input type="text" class="variable" placeholder="d'" name="d2" maxlength="3" required onchange="removeAnswer()">
+                        </div>
+                        <div class="eq">
+                            <input type="text" class="variable" placeholder="a''" name="a3" maxlength="3" required onchange="removeAnswer()">x + <input type="text" class="variable" placeholder="b''" name="b3" maxlength="3" required onchange="removeAnswer()">                            y + <input type="text" class="variable" placeholder="c''" name="c3" maxlength="3" required onchange="removeAnswer()"> z = <input type="text" class="variable" placeholder="d''" name="d3" maxlength="3" required onchange="removeAnswer()">
+                        </div>
+                    </div>
+                </div>
+
+                <p id="condition">S'il vous plait, veuillez saisir des nombres .</p>
+
+                <button type="button" onclick="resolve()">Résoudre</button>
+                <div id="answer">
+                    <p id="value_final"></p>
+                    <p id="solution_final"></p>
+                </div>
+            </section>
+            <section id="section2">
+                <p id="details">We <span id="pink">❤</span> Maths !</p>
+                <div class="craie craie_rose"></div>
+                <div class="craie craie_blanche"></div>
+            </section>
+        </section>
+
+    </main>
+
+    <!-- FOOTER -->
+    <footer>
+        <div id="link_container">
+            <a href="./index.html" class="btn btn_functional">Précédent</a>
+            <a href="./TP3.html" class="btn btn_functional">Suivant</a>
+        </div>
+    </footer>
+
+</body>
+
+</html>

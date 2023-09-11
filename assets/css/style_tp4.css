@@ -1,0 +1,15 @@
+/* MAIN */
+
+main {
+    width: 100vw;
+    height: 80vh;
+    position: relative;
+    margin-bottom: 1rem;
+}
+
+img {
+    position: absolute;
+    width: 99vw;
+    height: 80vh;
+    left: 0.5vw;
+}

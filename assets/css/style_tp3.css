@@ -1,0 +1,57 @@
+/* MAIN */
+
+main {
+    text-align: center;
+    position: relative;
+}
+
+#Condition {
+    height: 2rem;
+    width: 40vw;
+    padding: 5px;
+    font-size: 1rem;
+    text-align: left;
+    visibility: hidden;
+    margin: 1rem 0 1rem 30vw;
+    border-left: 6px solid rgb(0, 0, 255);
+    background-color: rgba(82, 187, 239, 0.4);
+}
+
+img {
+    margin: 0.93rem;
+}
+
+#answer {
+    width: 70vw;
+    height: 3rem;
+    padding-top: 5px;
+    font-size: 1.75rem;
+    visibility: hidden;
+    text-align: center;
+    margin: 1rem 0 0 15vw;
+    background: #d4eefb;
+    border: 3px dashed #52bbef;
+}
+
+p.input {
+    right: 17vw;
+    font-size: 2rem;
+    font-weight: bold;
+    position: absolute;
+}
+
+p.input1 {
+    top: 8rem;
+}
+
+p.input2 {
+    top: 12rem;
+}
+
+p.input3 {
+    top: 16rem;
+}
+
+p.input4 {
+    top: 20rem;
+}

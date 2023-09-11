@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <script src="./assets/javascript/app_tp3.js"></script>
+    <link rel="stylesheet" href="./assets/css/style_tp3.css">
+    <link rel="stylesheet" href="./assets/css/style_main.css">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TP III</title>
+</head>
+
+<body>
+    <!-- HEAD -->
+    <header><span id="numero_du_tp">③</span><a id="aide">?</a></header>
+
+    <!-- MAIN -->
+    <main>
+        <h1>Trouvons les valeurs de I<sub>2</sub> , I<sub>3</sub> , U<sub>1</sub> , U<sub>2</sub> et U<sub>3</sub></h1>
+        <p id="Condition">Veuillez entrez des valeurs (correctes) de I<sub>1</sub> , R<sub>1</sub> , R<sub>2</sub> et R<sub>3</sub></p>
+        <img src="./assets/images/tp3/circuit.png" alt="Circuit électronique">
+        <p class="input input1">I<sub>1</sub> = <input type="text" name="i1" class="variable" placeholder="..." maxlength="3" required onchange="removeAnswer()"><i>A</i></p>
+        <p class="input input2">R<sub>1</sub> = <input type="text" name="r1" class="variable" placeholder="..." maxlength="3" required onchange="removeAnswer()"><i>Ω</i></p>
+        <p class="input input3">R<sub>2</sub> = <input type="text" name="r2" class="variable" placeholder="..." maxlength="3" required onchange="removeAnswer()"><i>Ω</i></p>
+        <p class="input input4">R<sub>3</sub> = <input type="text" name="r3" class="variable" placeholder="..." maxlength="3" required onchange="removeAnswer()"><i>Ω</i></p>
+
+
+
+        <p><button onclick="calcul()">Calculer</button></p>
+
+        <p id="answer"></p>
+    </main>
+
+
+
+
+
+
+    <!-- FOOTER -->
+    <footer>
+        <div id="link_container">
+            <a href="./TP2.html" class="btn btn_functional">Précédent</a>
+            <a href="./TP4.html" class="btn btn_functional">Suivant</a>
+        </div>
+    </footer>
+
+</body>
+
+</html>
